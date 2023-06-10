@@ -253,6 +253,9 @@ h6 {
   .navbar ul {
     display: none;
   }
+  .logo {
+    display: none;
+  }
 }
 
 .navbar-mobile {
@@ -1314,6 +1317,7 @@ section {
 .breadcrumbs {
   padding: 15px 0;
   background: #f6f4f4;
+  color: #000;
   margin-top: 67px;
 }
 
