@@ -892,6 +892,12 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+@media (max-width: 576px) {
+  span iframe {
+    width: 100%; /* make the iframe stretch to fill the available space */
+    height: 240px; /* set a fixed height to maintain the aspect ratio */
+  }
+}
 
 /*--------------------------------------------------------------
 # Pricing
