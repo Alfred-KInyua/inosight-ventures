@@ -7,6 +7,11 @@ body {
   background-color: #040c18;
 }
 
+.nice {
+  width: 20rem;
+  height: auto;
+}
+
 a {
   color: #e43c5c;
   text-decoration: none;
@@ -256,6 +261,13 @@ h6 {
   .logo {
     display: none;
   }
+  .dance {
+    display: none;
+  }
+  .nice {
+    width: 10rem;
+    height: auto;
+  }
 }
 
 .navbar-mobile {
@@ -503,6 +515,14 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  position: relative;
+}
+.dance {
+  width: 20rem;
+  height: auto;
+  position: absolute;
+  top: 60;
+  right: 30;
 }
 
 .section-title h2 {
