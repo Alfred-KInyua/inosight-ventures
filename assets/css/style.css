@@ -524,6 +524,25 @@ section {
   top: 60;
   right: 30;
 }
+.dance {
+  opacity: 0;
+  animation: fadeInOut 10s ease-in-out;
+  z-index: 1;
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 .section-title h2 {
   font-size: 13px;
@@ -616,7 +635,10 @@ section {
   color: #fff;
   text-decoration: none;
 }
-
+.myparagraph p {
+  margin: 15px auto 0 auto;
+  font-weight: 600;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
